@@ -1,4 +1,6 @@
 import org.junit.Before;
+import org.junit.*;
+import static org.junit.Assert.*;
 
 public class KomodoTest {
     KomodoDragon k;
@@ -24,6 +26,6 @@ public class KomodoTest {
     }
 
     @Test(timeout = 50)
-    public void TestPrice() {assertEquals(5000, k.getPrice());}
+    public void TestPrice() {assertEquals(500, k.getPrice());}
 
 }
