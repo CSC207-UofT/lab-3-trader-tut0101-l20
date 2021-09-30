@@ -2,7 +2,7 @@ public class Bear implements Domesticatable, Tradable{
     private int maxSpeed;
 
     public Bear() {
-        this.mxSpeed = 1;
+        this.maxSpeed = 1;
     }
 
     @Override
@@ -27,7 +27,7 @@ public class Bear implements Domesticatable, Tradable{
 
     @Override
     public int getPrice() {
-        return 10;
+        return ;
     }
 
     @Override
